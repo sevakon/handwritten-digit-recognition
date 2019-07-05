@@ -1,0 +1,20 @@
+PODS:
+  - TensorFlowLiteC (0.2.0)
+  - TensorFlowLiteSwift (0.2.0):
+    - TensorFlowLiteC (= 0.2.0)
+
+DEPENDENCIES:
+  - TensorFlowLiteSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - TensorFlowLiteC
+    - TensorFlowLiteSwift
+
+SPEC CHECKSUMS:
+  TensorFlowLiteC: c90ae90f5d8194e3c66518e576f53cf4c1e7f42b
+  TensorFlowLiteSwift: 2499b9629744d0962de7340b53746d1f46f59096
+
+PODFILE CHECKSUM: ed53e0bef3aae7ce4d197015a28ada1eb83650bd
+
+COCOAPODS: 1.7.1

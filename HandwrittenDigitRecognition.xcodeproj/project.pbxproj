@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7898A51422CF7B5B00F20B29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7898A51322CF7B5B00F20B29 /* AppDelegate.swift */; };
+		7898A51B22CF7B5C00F20B29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7898A51A22CF7B5C00F20B29 /* Assets.xcassets */; };
+		7898A51E22CF7B5C00F20B29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7898A51C22CF7B5C00F20B29 /* LaunchScreen.storyboard */; };
+		7898A52622CF7D1D00F20B29 /* DrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7898A52522CF7D1D00F20B29 /* DrawingViewController.swift */; };
+		7898A52822CF7D7200F20B29 /* AppearanceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7898A52722CF7D7200F20B29 /* AppearanceProvider.swift */; };
+		7898A52A22CF80AF00F20B29 /* DrawingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7898A52922CF80AF00F20B29 /* DrawingImageView.swift */; };
+		9B55987C00AB6F67E401D5A1 /* Pods_HandwrittenDigitRecognition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1983877C3B8E73D05EB7F3FA /* Pods_HandwrittenDigitRecognition.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1983877C3B8E73D05EB7F3FA /* Pods_HandwrittenDigitRecognition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HandwrittenDigitRecognition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7898A51022CF7B5B00F20B29 /* HandwrittenDigitRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandwrittenDigitRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7898A51322CF7B5B00F20B29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7898A51A22CF7B5C00F20B29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7898A51D22CF7B5C00F20B29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7898A51F22CF7B5C00F20B29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7898A52522CF7D1D00F20B29 /* DrawingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingViewController.swift; sourceTree = "<group>"; };
+		7898A52722CF7D7200F20B29 /* AppearanceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceProvider.swift; sourceTree = "<group>"; };
+		7898A52922CF80AF00F20B29 /* DrawingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingImageView.swift; sourceTree = "<group>"; };
+		888C50D8E44C22EEAC8A9856 /* Pods-HandwrittenDigitRecognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandwrittenDigitRecognition.release.xcconfig"; path = "Target Support Files/Pods-HandwrittenDigitRecognition/Pods-HandwrittenDigitRecognition.release.xcconfig"; sourceTree = "<group>"; };
+		AFF8485238D81DA2EA8BBAF0 /* Pods-HandwrittenDigitRecognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandwrittenDigitRecognition.debug.xcconfig"; path = "Target Support Files/Pods-HandwrittenDigitRecognition/Pods-HandwrittenDigitRecognition.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7898A50D22CF7B5A00F20B29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B55987C00AB6F67E401D5A1 /* Pods_HandwrittenDigitRecognition.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7398AD622B6D26B5E76E04CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1983877C3B8E73D05EB7F3FA /* Pods_HandwrittenDigitRecognition.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7898A50722CF7B5A00F20B29 = {
+			isa = PBXGroup;
+			children = (
+				7898A51222CF7B5B00F20B29 /* HandwrittenDigitRecognition */,
+				7898A51122CF7B5B00F20B29 /* Products */,
+				E22EB0598553A3010997B088 /* Pods */,
+				7398AD622B6D26B5E76E04CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7898A51122CF7B5B00F20B29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7898A51022CF7B5B00F20B29 /* HandwrittenDigitRecognition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7898A51222CF7B5B00F20B29 /* HandwrittenDigitRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				7898A51322CF7B5B00F20B29 /* AppDelegate.swift */,
+				7898A51A22CF7B5C00F20B29 /* Assets.xcassets */,
+				7898A51C22CF7B5C00F20B29 /* LaunchScreen.storyboard */,
+				7898A51F22CF7B5C00F20B29 /* Info.plist */,
+				7898A52522CF7D1D00F20B29 /* DrawingViewController.swift */,
+				7898A52722CF7D7200F20B29 /* AppearanceProvider.swift */,
+				7898A52922CF80AF00F20B29 /* DrawingImageView.swift */,
+			);
+			path = HandwrittenDigitRecognition;
+			sourceTree = "<group>";
+		};
+		E22EB0598553A3010997B088 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFF8485238D81DA2EA8BBAF0 /* Pods-HandwrittenDigitRecognition.debug.xcconfig */,
+				888C50D8E44C22EEAC8A9856 /* Pods-HandwrittenDigitRecognition.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7898A50F22CF7B5A00F20B29 /* HandwrittenDigitRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7898A52222CF7B5C00F20B29 /* Build configuration list for PBXNativeTarget "HandwrittenDigitRecognition" */;
+			buildPhases = (
+				80EF77124CB12FC42586FA17 /* [CP] Check Pods Manifest.lock */,
+				7898A50C22CF7B5A00F20B29 /* Sources */,
+				7898A50D22CF7B5A00F20B29 /* Frameworks */,
+				7898A50E22CF7B5A00F20B29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandwrittenDigitRecognition;
+			productName = HandwrittenDigitRecognition;
+			productReference = 7898A51022CF7B5B00F20B29 /* HandwrittenDigitRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7898A50822CF7B5A00F20B29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Vsevolod Konyakhin";
+				TargetAttributes = {
+					7898A50F22CF7B5A00F20B29 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 7898A50B22CF7B5A00F20B29 /* Build configuration list for PBXProject "HandwrittenDigitRecognition" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7898A50722CF7B5A00F20B29;
+			productRefGroup = 7898A51122CF7B5B00F20B29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7898A50F22CF7B5A00F20B29 /* HandwrittenDigitRecognition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7898A50E22CF7B5A00F20B29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7898A51E22CF7B5C00F20B29 /* LaunchScreen.storyboard in Resources */,
+				7898A51B22CF7B5C00F20B29 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80EF77124CB12FC42586FA17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HandwrittenDigitRecognition-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7898A50C22CF7B5A00F20B29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7898A51422CF7B5B00F20B29 /* AppDelegate.swift in Sources */,
+				7898A52622CF7D1D00F20B29 /* DrawingViewController.swift in Sources */,
+				7898A52822CF7D7200F20B29 /* AppearanceProvider.swift in Sources */,
+				7898A52A22CF80AF00F20B29 /* DrawingImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7898A51C22CF7B5C00F20B29 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7898A51D22CF7B5C00F20B29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7898A52022CF7B5C00F20B29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7898A52122CF7B5C00F20B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7898A52322CF7B5C00F20B29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFF8485238D81DA2EA8BBAF0 /* Pods-HandwrittenDigitRecognition.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3J3URU6Z2X;
+				INFOPLIST_FILE = HandwrittenDigitRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VK.HandwrittenDigitRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7898A52422CF7B5C00F20B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 888C50D8E44C22EEAC8A9856 /* Pods-HandwrittenDigitRecognition.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3J3URU6Z2X;
+				INFOPLIST_FILE = HandwrittenDigitRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VK.HandwrittenDigitRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7898A50B22CF7B5A00F20B29 /* Build configuration list for PBXProject "HandwrittenDigitRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7898A52022CF7B5C00F20B29 /* Debug */,
+				7898A52122CF7B5C00F20B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7898A52222CF7B5C00F20B29 /* Build configuration list for PBXNativeTarget "HandwrittenDigitRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7898A52322CF7B5C00F20B29 /* Debug */,
+				7898A52422CF7B5C00F20B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7898A50822CF7B5A00F20B29 /* Project object */;
+}
