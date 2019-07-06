@@ -11,10 +11,12 @@ import TensorFlowLite
 
 class DrawingViewController: UIViewController {
     
+    override func loadView() {
+        view = AppView()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        view.backgroundColor = .customPink
     }
 
 }

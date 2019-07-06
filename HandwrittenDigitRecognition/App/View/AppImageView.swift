@@ -11,7 +11,9 @@ import UIKit
 class DrawingImageView: UIImageView {
     
     init() {
-        
+        super.init(frame: .zero)
+        backgroundColor = .white
+        translatesAutoresizingMaskIntoConstraints = false
     }
     
     required init?(coder aDecoder: NSCoder) {
