@@ -31,9 +31,9 @@ model.fit(x_train, y_train, epochs=5)
 model.evaluate(x_test, y_test)
 
 # saving model
-model.save('digit_recognition_model')
+saved_model_path = tf.contrib.saved_model.save_keras_model(model, "./saved_model")
 
 # converting to tf lite
-converter = tf.lite.TFLiteConverter.from_saved_model(digit_recognition_model)
+converter = tf.lite.TFLiteConverter.from_saved_model("./saved_model")
 tflite_model = converter.convert()
 open("converted_model.tflite", "wb").write(tflite_model)
