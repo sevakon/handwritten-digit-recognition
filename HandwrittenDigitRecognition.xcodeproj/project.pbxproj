@@ -13,7 +13,7 @@
 		7898A51422CF7B5B00F20B29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7898A51322CF7B5B00F20B29 /* AppDelegate.swift */; };
 		7898A51B22CF7B5C00F20B29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7898A51A22CF7B5C00F20B29 /* Assets.xcassets */; };
 		7898A51E22CF7B5C00F20B29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7898A51C22CF7B5C00F20B29 /* LaunchScreen.storyboard */; };
-		7898A52622CF7D1D00F20B29 /* DrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7898A52522CF7D1D00F20B29 /* DrawingViewController.swift */; };
+		7898A52622CF7D1D00F20B29 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7898A52522CF7D1D00F20B29 /* AppViewController.swift */; };
 		7898A52822CF7D7200F20B29 /* AppearanceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7898A52722CF7D7200F20B29 /* AppearanceProvider.swift */; };
 		7898A52A22CF80AF00F20B29 /* AppImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7898A52922CF80AF00F20B29 /* AppImageView.swift */; };
 		9B55987C00AB6F67E401D5A1 /* Pods_HandwrittenDigitRecognition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1983877C3B8E73D05EB7F3FA /* Pods_HandwrittenDigitRecognition.framework */; };
@@ -29,7 +29,7 @@
 		7898A51A22CF7B5C00F20B29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7898A51D22CF7B5C00F20B29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7898A51F22CF7B5C00F20B29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7898A52522CF7D1D00F20B29 /* DrawingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingViewController.swift; sourceTree = "<group>"; };
+		7898A52522CF7D1D00F20B29 /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
 		7898A52722CF7D7200F20B29 /* AppearanceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceProvider.swift; sourceTree = "<group>"; };
 		7898A52922CF80AF00F20B29 /* AppImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImageView.swift; sourceTree = "<group>"; };
 		888C50D8E44C22EEAC8A9856 /* Pods-HandwrittenDigitRecognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandwrittenDigitRecognition.release.xcconfig"; path = "Target Support Files/Pods-HandwrittenDigitRecognition/Pods-HandwrittenDigitRecognition.release.xcconfig"; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 		78401C3D22D0006700C99B6A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				7898A52522CF7D1D00F20B29 /* DrawingViewController.swift */,
+				7898A52522CF7D1D00F20B29 /* AppViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -237,7 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7898A51422CF7B5B00F20B29 /* AppDelegate.swift in Sources */,
-				7898A52622CF7D1D00F20B29 /* DrawingViewController.swift in Sources */,
+				7898A52622CF7D1D00F20B29 /* AppViewController.swift in Sources */,
 				7898A52822CF7D7200F20B29 /* AppearanceProvider.swift in Sources */,
 				78401C4522D01EE600C99B6A /* AppLabel.swift in Sources */,
 				78401C4322D00FFE00C99B6A /* AppButton.swift in Sources */,

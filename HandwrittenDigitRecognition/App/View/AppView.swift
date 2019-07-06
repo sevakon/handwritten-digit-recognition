@@ -8,6 +8,10 @@
 
 import UIKit
 
+protocol AppViewDelegate: class {
+    func didUserPressRecognizeButton()
+}
+
 class AppView: UIView {
     
     private var imageView: DrawingImageView
@@ -23,6 +27,8 @@ class AppView: UIView {
     private let clearButton: AppButton
     
     private var digitLabel: AppLabel
+    
+    weak var delegate: AppViewDelegate?
     
     init() {
         imageView = DrawingImageView()
@@ -42,10 +48,19 @@ class AppView: UIView {
         
         addSubview(recognizeButton)
         addSubview(clearButton)
-//        clearButton.addTarget(self, action: , for: )
-//        recognizeButton.addTarget(self, action: , for: )
+        
+        clearButton.addTarget(self, action: #selector(clearButtonPressed), for: .touchUpInside)
+        recognizeButton.addTarget(self, action: #selector(recognizeButtonPressed), for: .touchUpInside)
         
         addSubview(digitLabel)
+    }
+    
+    @objc private func clearButtonPressed() {
+        imageView.didUserPressClearButton()
+    }
+    
+    @objc private func recognizeButtonPressed() {
+        delegate?.didUserPressRecognizeButton()
     }
     
     private func setupConstraints() {

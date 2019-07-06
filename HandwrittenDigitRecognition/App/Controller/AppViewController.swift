@@ -9,14 +9,20 @@
 import UIKit
 import TensorFlowLite
 
-class DrawingViewController: UIViewController {
+class AppViewController: UIViewController, AppViewDelegate {
+    
+    private var appView = AppView()
     
     override func loadView() {
-        view = AppView()
+        view = appView
+        appView.delegate = self
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    internal func didUserPressRecognizeButton() {
 
+    }
 }
