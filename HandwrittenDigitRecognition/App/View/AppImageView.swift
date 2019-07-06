@@ -12,7 +12,7 @@ class DrawingImageView: UIImageView {
     
     private var lastPoint = CGPoint.zero
     private var color = UIColor.black
-    private var brushWidth: CGFloat = 10.0
+    private var brushWidth: CGFloat = 20.0
     private var opacity: CGFloat = 1.0
     private var swiped = false
     
