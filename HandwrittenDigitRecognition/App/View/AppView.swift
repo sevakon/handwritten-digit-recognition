@@ -9,7 +9,7 @@
 import UIKit
 
 protocol AppViewDelegate: class {
-    func didUserPressRecognizeButton()
+    func didUserPressRecognizeButton(with image: UIImageView)
 }
 
 class AppView: UIView {
@@ -57,10 +57,15 @@ class AppView: UIView {
     
     @objc private func clearButtonPressed() {
         imageView.didUserPressClearButton()
+        digitLabel.resetLabel()
     }
     
     @objc private func recognizeButtonPressed() {
-        delegate?.didUserPressRecognizeButton()
+        delegate?.didUserPressRecognizeButton(with: imageView)
+    }
+    
+    internal func updateDigitLabel(with number: Int, probability: Float) {
+        digitLabel.updateLabel(with: number, probability: probability)
     }
     
     private func setupConstraints() {
@@ -73,7 +78,7 @@ class AppView: UIView {
         imageView.centerYAnchor.constraint(equalTo: backgroundImageView.centerYAnchor).isActive = true
         imageView.widthAnchor.constraint(equalTo: backgroundImageView.widthAnchor, constant: -3).isActive = true
         imageView.heightAnchor.constraint(equalTo: imageView.widthAnchor).isActive = true
-        
+                
         clearButton.widthAnchor.constraint(equalTo: self.widthAnchor).isActive = true
         clearButton.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -40).isActive = true
         clearButton.centerXAnchor.constraint(equalTo: self.centerXAnchor).isActive = true

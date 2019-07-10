@@ -10,12 +10,17 @@
 		78401C4122D0051400C99B6A /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78401C4022D0051400C99B6A /* AppView.swift */; };
 		78401C4322D00FFE00C99B6A /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78401C4222D00FFE00C99B6A /* AppButton.swift */; };
 		78401C4522D01EE600C99B6A /* AppLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78401C4422D01EE600C99B6A /* AppLabel.swift */; };
+		784F658422D130CF009948BA /* ModelDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784F658322D130CF009948BA /* ModelDataHandler.swift */; };
 		7898A51422CF7B5B00F20B29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7898A51322CF7B5B00F20B29 /* AppDelegate.swift */; };
 		7898A51B22CF7B5C00F20B29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7898A51A22CF7B5C00F20B29 /* Assets.xcassets */; };
 		7898A51E22CF7B5C00F20B29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7898A51C22CF7B5C00F20B29 /* LaunchScreen.storyboard */; };
 		7898A52622CF7D1D00F20B29 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7898A52522CF7D1D00F20B29 /* AppViewController.swift */; };
 		7898A52822CF7D7200F20B29 /* AppearanceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7898A52722CF7D7200F20B29 /* AppearanceProvider.swift */; };
 		7898A52A22CF80AF00F20B29 /* AppImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7898A52922CF80AF00F20B29 /* AppImageView.swift */; };
+		78E589EF22D1599E003B02CA /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E589EE22D1599E003B02CA /* Extension.swift */; };
+		78E589F822D56E20003B02CA /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E589F722D56E20003B02CA /* Tests.swift */; };
+		78E589FB22D57B90003B02CA /* baseline_model.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 78E589F922D57B8F003B02CA /* baseline_model.tflite */; };
+		78E589FC22D57B90003B02CA /* advanced_model.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 78E589FA22D57B90003B02CA /* advanced_model.tflite */; };
 		9B55987C00AB6F67E401D5A1 /* Pods_HandwrittenDigitRecognition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1983877C3B8E73D05EB7F3FA /* Pods_HandwrittenDigitRecognition.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +29,7 @@
 		78401C4022D0051400C99B6A /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		78401C4222D00FFE00C99B6A /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
 		78401C4422D01EE600C99B6A /* AppLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLabel.swift; sourceTree = "<group>"; };
+		784F658322D130CF009948BA /* ModelDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDataHandler.swift; sourceTree = "<group>"; };
 		7898A51022CF7B5B00F20B29 /* HandwrittenDigitRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandwrittenDigitRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7898A51322CF7B5B00F20B29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7898A51A22CF7B5C00F20B29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -32,6 +38,10 @@
 		7898A52522CF7D1D00F20B29 /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
 		7898A52722CF7D7200F20B29 /* AppearanceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceProvider.swift; sourceTree = "<group>"; };
 		7898A52922CF80AF00F20B29 /* AppImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImageView.swift; sourceTree = "<group>"; };
+		78E589EE22D1599E003B02CA /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		78E589F722D56E20003B02CA /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		78E589F922D57B8F003B02CA /* baseline_model.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; name = baseline_model.tflite; path = PythonScript/baseline_model.tflite; sourceTree = SOURCE_ROOT; };
+		78E589FA22D57B90003B02CA /* advanced_model.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; name = advanced_model.tflite; path = PythonScript/advanced_model.tflite; sourceTree = SOURCE_ROOT; };
 		888C50D8E44C22EEAC8A9856 /* Pods-HandwrittenDigitRecognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandwrittenDigitRecognition.release.xcconfig"; path = "Target Support Files/Pods-HandwrittenDigitRecognition/Pods-HandwrittenDigitRecognition.release.xcconfig"; sourceTree = "<group>"; };
 		AFF8485238D81DA2EA8BBAF0 /* Pods-HandwrittenDigitRecognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandwrittenDigitRecognition.debug.xcconfig"; path = "Target Support Files/Pods-HandwrittenDigitRecognition/Pods-HandwrittenDigitRecognition.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,7 +69,8 @@
 		78401C3A22D0002600C99B6A /* App */ = {
 			isa = PBXGroup;
 			children = (
-				78401C3F22D0007E00C99B6A /* Model */,
+				78E589F622D56DEE003B02CA /* Tests */,
+				78401C3F22D0007E00C99B6A /* Handler */,
 				78401C3E22D0007300C99B6A /* View */,
 				78401C3D22D0006700C99B6A /* Controller */,
 			);
@@ -71,6 +82,7 @@
 			children = (
 				7898A51322CF7B5B00F20B29 /* AppDelegate.swift */,
 				7898A52722CF7D7200F20B29 /* AppearanceProvider.swift */,
+				78E589EE22D1599E003B02CA /* Extension.swift */,
 				7898A51C22CF7B5C00F20B29 /* LaunchScreen.storyboard */,
 				7898A51A22CF7B5C00F20B29 /* Assets.xcassets */,
 			);
@@ -96,11 +108,12 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		78401C3F22D0007E00C99B6A /* Model */ = {
+		78401C3F22D0007E00C99B6A /* Handler */ = {
 			isa = PBXGroup;
 			children = (
+				784F658322D130CF009948BA /* ModelDataHandler.swift */,
 			);
-			path = Model;
+			path = Handler;
 			sourceTree = "<group>";
 		};
 		7898A50722CF7B5A00F20B29 = {
@@ -124,11 +137,21 @@
 		7898A51222CF7B5B00F20B29 /* HandwrittenDigitRecognition */ = {
 			isa = PBXGroup;
 			children = (
+				78E589FA22D57B90003B02CA /* advanced_model.tflite */,
+				78E589F922D57B8F003B02CA /* baseline_model.tflite */,
 				78401C3C22D0003F00C99B6A /* Supporting Files */,
 				78401C3A22D0002600C99B6A /* App */,
 				7898A51F22CF7B5C00F20B29 /* Info.plist */,
 			);
 			path = HandwrittenDigitRecognition;
+			sourceTree = "<group>";
+		};
+		78E589F622D56DEE003B02CA /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				78E589F722D56E20003B02CA /* Tests.swift */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		E22EB0598553A3010997B088 /* Pods */ = {
@@ -200,7 +223,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7898A51E22CF7B5C00F20B29 /* LaunchScreen.storyboard in Resources */,
+				78E589FC22D57B90003B02CA /* advanced_model.tflite in Resources */,
 				7898A51B22CF7B5C00F20B29 /* Assets.xcassets in Resources */,
+				78E589FB22D57B90003B02CA /* baseline_model.tflite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78E589EF22D1599E003B02CA /* Extension.swift in Sources */,
+				78E589F822D56E20003B02CA /* Tests.swift in Sources */,
 				7898A51422CF7B5B00F20B29 /* AppDelegate.swift in Sources */,
 				7898A52622CF7D1D00F20B29 /* AppViewController.swift in Sources */,
 				7898A52822CF7D7200F20B29 /* AppearanceProvider.swift in Sources */,
@@ -243,6 +270,7 @@
 				78401C4322D00FFE00C99B6A /* AppButton.swift in Sources */,
 				78401C4122D0051400C99B6A /* AppView.swift in Sources */,
 				7898A52A22CF80AF00F20B29 /* AppImageView.swift in Sources */,
+				784F658422D130CF009948BA /* ModelDataHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

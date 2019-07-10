@@ -10,9 +10,12 @@ import UIKit
 
 class DrawingImageView: UIImageView {
     
+    private let imageViewWidth: CGFloat = 28
+    private let imageViewHeight: CGFloat = 28
+    
     private var lastPoint = CGPoint.zero
     private var color = UIColor.black
-    private var brushWidth: CGFloat = 20.0
+    private var brushWidth: CGFloat = 35.0
     private var opacity: CGFloat = 1.0
     private var swiped = false
     
